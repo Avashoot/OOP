@@ -32,7 +32,9 @@ class Demo5 extends Demo4{
 public class ConstructorCaseInInheritance {
     public static void main(String[] args) {
         Demo5 d = new Demo5();
-//        Demo5 d1 = new Demo5(10,12);
+        System.out.println(d.m);
+        System.out.println(d.n);
+    //    Demo5 d1 = new Demo5(10,12);
 
     }
 }

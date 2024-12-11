@@ -33,7 +33,7 @@ public class constructorOverloading {
         Student2 st2 = new Student2("Ritesh");
         st2.display();
 
-//        Student2 st3 = new Student2("ramesh", 10);
-//        st3.display();
+       Student2 st3 = new Student2("ramesh", 10);
+       st3.display();
     }
 }

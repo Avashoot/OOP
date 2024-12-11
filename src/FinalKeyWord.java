@@ -11,13 +11,14 @@ class Animal2{
 //        a =30;  we cannot modify the final variable it just act like the constant
         System.out.println("animal is sleeping");
     }
+    
 }
 
 class Tiger2 extends Animal2 /*   : final class will not participate in inheritance*/{
-        // we cannot override teh final method in child class we can just inherit it
-//        public void sleep(){
-//
-//        }
+        // we cannot override the final method in child class we can just inherit it
+    //    public void sleep(){
+
+    //    }
 
 }
 public class FinalKeyWord {
